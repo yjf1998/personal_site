@@ -1,12 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
     <link>https://yjf1998.github.io/personal_site/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 23:42:53 +0100</lastBuildDate><atom:link href="https://yjf1998.github.io/personal_site/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 29 Jan 2021 23:42:53 +0100</lastBuildDate>
+    
+        <atom:link href="https://yjf1998.github.io/personal_site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>https://yjf1998.github.io/personal_site/first-post/</link>
+      <pubDate>Fri, 29 Jan 2021 23:42:53 +0100</pubDate>
+      
+      <guid>https://yjf1998.github.io/personal_site/first-post/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>First Post</title>
       <link>https://yjf1998.github.io/personal_site/posts/first-post/</link>
@@ -14,6 +26,72 @@
       
       <guid>https://yjf1998.github.io/personal_site/posts/first-post/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yjf1998.github.io/personal_site/20191201/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yjf1998.github.io/personal_site/20191201/</guid>
+      <description>&lt;h1 id=&#34;1201&#34;&gt;12.01&lt;/h1&gt;
+&lt;h2 id=&#34;theta&#34;&gt;Theta&lt;/h2&gt;
+&lt;h3 id=&#34;the-simplest-case&#34;&gt;The simplest case&lt;/h3&gt;
+&lt;p&gt;Fix $$k = \mathbb{F}_{p}$$ the finite field.&lt;/p&gt;
+&lt;p&gt;Take the dual pair $$(G,G&#39;)$$, where $$G=Sp(2)=Sp(V)$$, $$G&#39; = O(1,1) = O(V&#39;)$$.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Their Borels are $$B \subset G =\begin{pmatrix} t &amp;amp; * \  &amp;amp; t^{-1} \end{pmatrix}$$, $$B&#39; = k^{\times} \rtimes \langle\begin{pmatrix} 0 &amp;amp; 1 \ 1 &amp;amp; 0 \end{pmatrix} \rangle$$&lt;/p&gt;
+&lt;p&gt;$$B=TN, N =\begin{pmatrix} 1 &amp;amp; x \ 0 &amp;amp; 1 \end{pmatrix}, T=k^{\times}$$, $$B&#39;$$ acts as scaling&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Want to learn the module $$\omega^{B\times B&#39;} = (\omega^{N})^{T\times B&#39;} = (\omega_{N})^{T}$$.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$\omega_{N} = \mathbb{C}[C], C ={ v&#39;\in V&#39;|\langle v&#39;, v&#39; \rangle = 0}\subset V&#39;$$.&lt;/p&gt;
+&lt;p&gt;$$C$$ has basis $${f_{+},f_{-},f_{0} }$$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Hecke module of $$(G,G&#39;)$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$\mathcal{H}^{\prime}=\mathbb{C}[\langle s&#39;\rangle], s&#39; =\begin{pmatrix} 0 &amp;amp; 1 \ 1 &amp;amp; 0 \end{pmatrix}$$.&lt;/p&gt;
+&lt;p&gt;$$\mathcal{H}=span{\mathbb{1}&lt;em&gt;{B}, \mathbb{1}&lt;/em&gt;{BsB}} \subset \mathbb{C}[G]$$, denote $$\phi_{0}=\mathbb{1}_{B}, \phi_{s}= \mathbb{1}_{BsB}$$, then $$(\phi_s-q)(\phi_s +1)=0$$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then $$s&#39;$$ acts on $$C$$ by translating $$f_{+}, f_{-}$$, stable $$f_{0}$$,&lt;/p&gt;
+&lt;p&gt;$$\phi_{s} f_{+} = \frac{1}{|B|}\sum_{t\in BsB}\omega(t)f_{+}=&amp;hellip;=p f_{+}$$, $$\phi_{s} f_{-} = f_{-}$$, $$\phi_{s}f_{0}= f_{+}+f_{-}-f_{0}$$.&lt;/p&gt;
+&lt;p&gt;Then the matrix realization of $$\phi_{s}$$ is $$\begin{pmatrix} -1 &amp;amp; 1 &amp;amp; 1 \  &amp;amp; p &amp;amp; \ &amp;amp; &amp;amp; p \end{pmatrix}$$.&lt;/p&gt;
+&lt;h3 id=&#34;higher-orthogonal-case&#34;&gt;Higher orthogonal case&lt;/h3&gt;
+&lt;p&gt;The problem is how to fix a basis? The dimension of $$\frac{1}{n}$$,&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yjf1998.github.io/personal_site/posts/20191201/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yjf1998.github.io/personal_site/posts/20191201/</guid>
+      <description>&lt;h1 id=&#34;1201&#34;&gt;12.01&lt;/h1&gt;
+&lt;h2 id=&#34;theta&#34;&gt;Theta&lt;/h2&gt;
+&lt;h3 id=&#34;the-simplest-case&#34;&gt;The simplest case&lt;/h3&gt;
+&lt;p&gt;Fix $$k = \mathbb{F}_{p}$$ the finite field.&lt;/p&gt;
+&lt;p&gt;Take the dual pair $$(G,G&#39;)$$, where $$G=Sp(2)=Sp(V)$$, $$G&#39; = O(1,1) = O(V&#39;)$$.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Their Borels are $$B \subset G =\begin{pmatrix} t &amp;amp; * \  &amp;amp; t^{-1} \end{pmatrix}$$, $$B&#39; = k^{\times} \rtimes \langle\begin{pmatrix} 0 &amp;amp; 1 \ 1 &amp;amp; 0 \end{pmatrix} \rangle$$&lt;/p&gt;
+&lt;p&gt;$$B=TN, N =\begin{pmatrix} 1 &amp;amp; x \ 0 &amp;amp; 1 \end{pmatrix}, T=k^{\times}$$, $$B&#39;$$ acts as scaling&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Want to learn the module $$\omega^{B\times B&#39;} = (\omega^{N})^{T\times B&#39;} = (\omega_{N})^{T}$$.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$\omega_{N} = \mathbb{C}[C], C ={ v&#39;\in V&#39;|\langle v&#39;, v&#39; \rangle = 0}\subset V&#39;$$.&lt;/p&gt;
+&lt;p&gt;$$C$$ has basis $${f_{+},f_{-},f_{0} }$$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Hecke module of $$(G,G&#39;)$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$\mathcal{H}^{\prime}=\mathbb{C}[\langle s&#39;\rangle], s&#39; =\begin{pmatrix} 0 &amp;amp; 1 \ 1 &amp;amp; 0 \end{pmatrix}$$.&lt;/p&gt;
+&lt;p&gt;$$\mathcal{H}=span{\mathbb{1}&lt;em&gt;{B}, \mathbb{1}&lt;/em&gt;{BsB}} \subset \mathbb{C}[G]$$, denote $$\phi_{0}=\mathbb{1}_{B}, \phi_{s}= \mathbb{1}_{BsB}$$, then $$(\phi_s-q)(\phi_s +1)=0$$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then $$s&#39;$$ acts on $$C$$ by translating $$f_{+}, f_{-}$$, stable $$f_{0}$$,&lt;/p&gt;
+&lt;p&gt;$$\phi_{s} f_{+} = \frac{1}{|B|}\sum_{t\in BsB}\omega(t)f_{+}=&amp;hellip;=p f_{+}$$, $$\phi_{s} f_{-} = f_{-}$$, $$\phi_{s}f_{0}= f_{+}+f_{-}-f_{0}$$.&lt;/p&gt;
+&lt;p&gt;Then the matrix realization of $$\phi_{s}$$ is $$\begin{pmatrix} -1 &amp;amp; 1 &amp;amp; 1 \  &amp;amp; p &amp;amp; \ &amp;amp; &amp;amp; p \end{pmatrix}$$.&lt;/p&gt;
+&lt;h3 id=&#34;higher-orthogonal-case&#34;&gt;Higher orthogonal case&lt;/h3&gt;
+&lt;p&gt;The problem is how to fix a basis? The dimension of $$\frac{1}{n}$$,&lt;/p&gt;
+</description>
     </item>
     
   </channel>
